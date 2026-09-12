@@ -1,6 +1,7 @@
 import React from 'react';
 import { Target, Eye, Quote } from 'lucide-react';
 import { Container } from './Container';
+import { ASSETS } from '../data';
 
 export const MissionVisionSection: React.FC = () => {
   return (
@@ -59,8 +60,8 @@ export const MissionVisionSection: React.FC = () => {
           <div className="md:col-span-4 flex justify-center md:justify-start">
             <div className="w-60 h-60 sm:w-72 sm:h-72 bg-white p-2 shadow-md border border-neutral-200 overflow-hidden flex items-center justify-center">
               <img
-                src="/assets/images/chairman.jpg"
-                alt="Chairman of Safemet Fire Safety Equipment & Solution"
+                src={ASSETS.chairman}
+                alt="Chairman of R.N Group"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center"
               />
@@ -86,10 +87,10 @@ export const MissionVisionSection: React.FC = () => {
             </p>
             <div className="pt-4 border-t border-neutral-200">
               <p className="text-base font-extrabold text-[#1e2327] uppercase tracking-wider font-['Montserrat',sans-serif]">
-                Chairman&rsquo;s Name
+                CHAIRMAN
               </p>
               <p className="text-[13px] font-semibold text-neutral-500 uppercase tracking-wider mt-1">
-                Chairman, Safemet Fire Safety Equipment &amp; Solution
+                R.N Group
               </p>
             </div>
           </div>
@@ -101,8 +102,8 @@ export const MissionVisionSection: React.FC = () => {
           <div className="md:col-span-4 md:order-last flex justify-center md:justify-end">
             <div className="w-60 h-60 sm:w-72 sm:h-72 bg-white p-2 shadow-md border border-neutral-200 overflow-hidden flex items-center justify-center">
               <img
-                src="/assets/images/ceo.jpg"
-                alt="CEO of Safemet Fire Safety Equipment & Solution"
+                src={ASSETS.ceo}
+                alt="Chief Executive Officer of R.N Group"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center"
               />
@@ -128,10 +129,10 @@ export const MissionVisionSection: React.FC = () => {
             </p>
             <div className="pt-4 border-t border-neutral-200">
               <p className="text-base font-extrabold text-[#1e2327] uppercase tracking-wider font-['Montserrat',sans-serif]">
-                CEO&rsquo;s Name
+                CHIEF EXECUTIVE OFFICER
               </p>
               <p className="text-[13px] font-semibold text-neutral-500 uppercase tracking-wider mt-1">
-                Chief Executive Officer, Safemet Fire Safety Equipment &amp; Solution
+                R.N Group
               </p>
             </div>
           </div>
